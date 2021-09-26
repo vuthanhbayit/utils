@@ -9,18 +9,8 @@ export const isCrawler = (userAgent: string) => /bot|crawler|spider|crawling/i.t
 export const isWindow = (val: any): val is Window => typeof window !== 'undefined' && toString.call(val) === '[object Window]'
 export const isFunction = <T extends Function> (val: any): val is T => typeof val === 'function'
 export const isBoolean = (val: any): val is boolean => typeof val === 'boolean'
-
-export const isImage = (filename: string) => {
-  const regexImage = /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i
-
-  return regexImage.test(filename)
-}
-
-export const isVideo = (filename: string) => {
-  const regexImage = /\.(m4v|avi|mpg|mp4|webm)$/i
-
-  return regexImage.test(filename)
-}
+export const isImage = (filename: string) => /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(filename)
+export const isVideo = (filename: string) => /\.(m4v|avi|mpg|mp4|webm)$/i.test(filename)
 
 /**
  * @param value
@@ -42,15 +32,10 @@ export const isVideo = (filename: string) => {
  */
 export const isEmpty = <T>(val: T) => {
   if (!isDefined(val)) return true
-
-  if (typeof val === 'string' && val.trim() === '') return true
-
-  if (typeof val === 'number' && (val === 0 || Number.isNaN(val))) return true
-
-  if (typeof val === 'boolean' && val === false) return true
-
+  if (isString(val) && val.trim() === '') return true
+  if (isNumber(val) && (val === 0 || Number.isNaN(val))) return true
+  if (isBoolean(val) && val === false) return true
   if (isArray(val) && val.length === 0) return true
-
   if (isObject(val)) {
     const values = Object.values(val)
 
@@ -61,22 +46,6 @@ export const isEmpty = <T>(val: T) => {
   return false
 }
 
-/**
- * @param value
- * @return {boolean}
- * @example isExist(null) => false
- * @example isExist(undefined) => false
- * @example isExist(1) => true
- * @example isExist('') => false
- * @example isExist(' ') => false
- * @example isExist({}) => false
- * @example isExist([]) => false
- * @example isExist(false) => false
- * @example isExist(true) => true
- * @example isExist({ value: 1 }) => true
- * @example isExist({ value: null }) => false
- * @example isExist({ value: { value1: {} } }) => false
- */
 export const isExist = <T>(val: T) => {
   return !isEmpty(val)
 }
