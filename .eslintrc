@@ -1,0 +1,6 @@
+{
+  "env": {
+  },
+  "extends": ["@antfu"],
+  "rules": {}
+}
