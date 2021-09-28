@@ -11,6 +11,7 @@ export const isFunction = <T extends Function> (val: any): val is T => typeof va
 export const isBoolean = (val: any): val is boolean => typeof val === 'boolean'
 export const isImage = (filename: string) => /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(filename)
 export const isVideo = (filename: string) => /\.(m4v|avi|mpg|mp4|webm)$/i.test(filename)
+export const isFormData = (val: any): val is FormData => val instanceof FormData
 
 /**
  * @param value
