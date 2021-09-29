@@ -71,3 +71,15 @@ export const truncateText = (
 
   return `${result.substr(0, indexLastSpace)} ${delimiter}`
 }
+
+/**
+ * Kebab case string
+ * @param string
+ * @return string
+ * @example toKebabCase('Một hai ba') // return mot-hai-ba
+ */
+export const toKebabCase = (string: string): string => {
+  const matches = removeVietnameseTones(string).match(/[A-Z]{2,}(?=[A-Z][a-z0-9]*|\b)|[A-Z]?[a-z0-9]*|[A-Z]|[0-9]+/g) || []
+
+  return matches.filter(Boolean).join('-').toLowerCase()
+}
