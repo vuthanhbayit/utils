@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/vuthanhbayit/utils/compare/v0.0.6...v0.0.7) (2021-10-07)
+
+
+### Features
+
+* **debugger:** add sleep fn ([501ce42](https://github.com/vuthanhbayit/utils/commit/501ce425b57f6e79bf5aa7b611586d41f663bfa7))
+
 ### [0.0.6](https://github.com/vuthanhbayit/utils/compare/v0.0.5...v0.0.6) (2021-09-29)
 
 
