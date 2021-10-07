@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/vuthanhbayit/utils/compare/v0.0.9...v0.0.10) (2021-10-07)
+
+
+### Bug Fixes
+
+* build format ejs ([56a33da](https://github.com/vuthanhbayit/utils/commit/56a33dac4051107e6f051142771e9cf762488c7f))
+
 ### [0.0.9](https://github.com/vuthanhbayit/utils/compare/v0.0.8...v0.0.9) (2021-10-07)
 
 ### [0.0.8](https://github.com/vuthanhbayit/utils/compare/v0.0.7...v0.0.8) (2021-10-07)
