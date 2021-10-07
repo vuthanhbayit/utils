@@ -8,6 +8,7 @@
   "author": "Vu Thanh Bay <vuthanhbayit@gmail.com>",
   "license": "MIT",
   "sideEffects": false,
+  "type": "module",
   "bugs": {
     "url": "https://github.com/vuthanhbayit/utils/issues"
   },
