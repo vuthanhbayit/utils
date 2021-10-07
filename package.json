@@ -1,6 +1,6 @@
 {
   "name": "@vt7/utils",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Opinionated collection of common JavaScript / TypeScript utils by @vt7",
   "main": "dist/index.js",
   "module": "dist/index.js",
