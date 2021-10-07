@@ -5,5 +5,5 @@ export const tsup: Options = {
   clean: true,
   dts: true,
   entryPoints: ['src/*.ts'],
-  format: ['esm'],
+  format: ['esm', 'cjs'],
 }
