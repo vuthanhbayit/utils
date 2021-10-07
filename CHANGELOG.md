@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/vuthanhbayit/utils/compare/v0.0.7...v0.0.8) (2021-10-07)
+
+
+### Features
+
+* **url:** add is-url fn ([f1f8fdd](https://github.com/vuthanhbayit/utils/commit/f1f8fdd16815b9e398b2a576f6df7667dbe9f0d3))
+
 ### [0.0.7](https://github.com/vuthanhbayit/utils/compare/v0.0.6...v0.0.7) (2021-10-07)
 
 
