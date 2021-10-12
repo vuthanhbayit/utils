@@ -9,5 +9,5 @@ import { isNumeric } from './is'
  */
 
 export const toNumeric = (value: string | number) => {
-  return isNumeric(value) ? Number(value) : value
+  return isNumeric(value) ? value : Number(value)
 }
