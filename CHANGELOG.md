@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/vuthanhbayit/utils/compare/v0.0.10...v0.0.11) (2021-10-12)
+
+
+### Bug Fixes
+
+* **number:** fix toNumeric ([35ddd09](https://github.com/vuthanhbayit/utils/commit/35ddd09d998cb00ae9f23ad6a303d794aa81b9ca))
+
 ### [0.0.10](https://github.com/vuthanhbayit/utils/compare/v0.0.9...v0.0.10) (2021-10-07)
 
 
