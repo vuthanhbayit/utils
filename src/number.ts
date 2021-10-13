@@ -1,4 +1,4 @@
-import { isNumeric } from './is'
+import { isNumber } from './is'
 
 /**
  *
@@ -9,5 +9,5 @@ import { isNumeric } from './is'
  */
 
 export const toNumeric = (value: string | number) => {
-  return isNumeric(value) ? value : Number(value)
+  return isNumber(value) ? value : Number(value)
 }
