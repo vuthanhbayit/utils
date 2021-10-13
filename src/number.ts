@@ -8,6 +8,6 @@ import { isNumber } from './is'
  * toNumeric('1') // return 1
  */
 
-export const toNumeric = (value: string | number) => {
+export const toNumber = (value: string | number) => {
   return isNumber(value) ? value : Number(value)
 }
