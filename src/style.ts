@@ -22,3 +22,10 @@ export const toCssUnit = (value?: string | number) => {
  * @example rgbToHex(255, 255, 255) => '#ffffff'
  */
 export const rgbToHex = (r: number, g: number, b: number) => `#${((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)}`
+
+/**
+ * @return {string}
+ * @example randomHex() => '#2e9ab4'
+ * @example randomHex() => '#4d6e8c'
+ */
+export const randomHex = () => `#${Math.floor(Math.random() * 0xFFFFFF).toString(16).padEnd(6, '0')}`
