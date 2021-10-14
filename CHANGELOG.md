@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/vuthanhbayit/utils/compare/v0.0.12...v0.0.13) (2021-10-14)
+
+
+### Features
+
+* **math:** add average ([cdc29a2](https://github.com/vuthanhbayit/utils/commit/cdc29a2439e83d6ad888d85d8a5b95b55c8d1d45))
+* **style:** add randomHex ([9c2765a](https://github.com/vuthanhbayit/utils/commit/9c2765ab3f7255e3f69cbcfeb0ec52aa8f70c839))
+* **style:** add rgbToHex ([55456af](https://github.com/vuthanhbayit/utils/commit/55456af72133939126be4222caa576726e523f62))
+
+
+### Bug Fixes
+
+* **number:** fix toNumber ([d7b2201](https://github.com/vuthanhbayit/utils/commit/d7b2201be6e3b3e84006e24ec14df3d4138bba70))
+* **random:** fix randomNumberInRange ([4951c14](https://github.com/vuthanhbayit/utils/commit/4951c142e09415e8ce22e26d44f05e5e1b89ed88))
+* remove function not use ([e0d44c3](https://github.com/vuthanhbayit/utils/commit/e0d44c39fee536a1bd5e99db57655cfe07e29fee))
+
 ### [0.0.12](https://github.com/vuthanhbayit/utils/compare/v0.0.11...v0.0.12) (2021-10-13)
 
 
