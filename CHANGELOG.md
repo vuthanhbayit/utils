@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/vuthanhbayit/utils/compare/v0.0.13...v0.0.14) (2021-10-15)
+
+
+### Bug Fixes
+
+* **scroll:** fix handleScrollElement for window ([aece437](https://github.com/vuthanhbayit/utils/commit/aece437360a604f9995fe68cb9b0df01fa969a99))
+
 ### [0.0.13](https://github.com/vuthanhbayit/utils/compare/v0.0.12...v0.0.13) (2021-10-14)
 
 
