@@ -1,4 +1,5 @@
 import { cancelRaf, raf } from './requestAnimationFrame'
+import { isWindow } from './is'
 
 interface ScrollEvent extends Event {
   direction: 'down' | 'up'
@@ -8,13 +9,14 @@ interface ScrollEvent extends Event {
 }
 
 export const handleScrollElement = (
-  target: HTMLElement,
   callback: (event: ScrollEvent) => void,
+  target?: HTMLElement,
 ) => {
+  const _target = target || window
   let lastScrollTop = 0
 
   const listener = (e: any) => {
-    const { scrollTop, offsetHeight, scrollHeight, scrollLeft } = target
+    const { scrollTop, clientHeight, scrollHeight, scrollLeft } = isWindow(_target) ? document.documentElement : _target
 
     e.y = scrollTop
     e.x = scrollLeft
@@ -24,7 +26,7 @@ export const handleScrollElement = (
     else
       e.direction = 'up'
 
-    if (scrollTop + offsetHeight === scrollHeight)
+    if (scrollTop + clientHeight === scrollHeight)
       e.last = true
     else
       e.last = false
@@ -34,9 +36,9 @@ export const handleScrollElement = (
     callback(e)
   }
 
-  target.addEventListener('scroll', listener)
+  _target.addEventListener('scroll', listener)
 
-  const stop = () => target.removeEventListener('scroll', listener)
+  const stop = () => _target.removeEventListener('scroll', listener)
 
   return stop
 }
