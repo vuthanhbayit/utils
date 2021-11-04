@@ -1,5 +1,4 @@
 import { toNumber } from './number'
-import { isTruthy } from './guards'
 
 export interface FormatterOption {
   thousandsSeparator: string
@@ -41,10 +40,26 @@ export const formatCurrency = (value: number | string) => {
   return formatter(DEFAULT_FORMATTER_OPTION)(val)
 }
 
+/**
+ * @param value: string | number
+ * @return string
+ * @example toCurrencySystem(10_000) => 10 K
+ * @example toCurrencySystem('10000000') => 10 M
+ */
 export const toCurrencySystem = (value: number | string, units = ['', 'K', 'M', 'B']) => {
   const number = toNumber(value)
 
   const i = Math.floor(Math.log(number) / Math.log(1000))
 
   return [Math.round(number / Math.pow(1000, i)), units[i]].filter(Boolean).join(' ')
+}
+
+/**
+ * @param value: string | number
+ * @return string
+ * @example toCurrencySystemVietnamese(10_000) => 10 Nghìn
+ * @example toCurrencySystemVietnamese('10000000') => 10 Triệu
+ */
+export const toCurrencySystemVietnamese = (value: number | string) => {
+  return toCurrencySystem(value, ['', 'Nghìn', 'Triệu', 'Tỷ'])
 }
