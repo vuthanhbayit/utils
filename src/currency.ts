@@ -1,3 +1,6 @@
+import { toNumber } from './number'
+import { isTruthy } from './guards'
+
 export interface FormatterOption {
   thousandsSeparator: string
   prefix: string
@@ -36,4 +39,12 @@ export const formatCurrency = (value: number | string) => {
   const val = Number.isInteger(value) ? value : Number(Number(value).toFixed(2))
 
   return formatter(DEFAULT_FORMATTER_OPTION)(val)
+}
+
+export const toCurrencySystem = (value: number | string, units = ['', 'K', 'M', 'B']) => {
+  const number = toNumber(value)
+
+  const i = Math.floor(Math.log(number) / Math.log(1000))
+
+  return [Math.round(number / Math.pow(1000, i)), units[i]].filter(Boolean).join(' ')
 }
