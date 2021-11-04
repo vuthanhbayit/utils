@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.16](https://github.com/vuthanhbayit/utils/compare/v0.0.15...v0.0.16) (2021-11-04)
+
+
+### Features
+
+* **currenct:** add fn toCurrencySystem ([5f4c03d](https://github.com/vuthanhbayit/utils/commit/5f4c03db91d6c4926b9c54d9877b0dafb6b512cd))
+* **currency:** add fn toCurrencySystemVietnamese ([36be576](https://github.com/vuthanhbayit/utils/commit/36be576690406dc88fd82c9ec4f098678cc81dcb))
+
 ### [0.0.15](https://github.com/vuthanhbayit/utils/compare/v0.0.14...v0.0.15) (2021-11-04)
 
 
