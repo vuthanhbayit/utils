@@ -49,6 +49,8 @@ export const formatCurrency = (value: number | string) => {
 export const toCurrencySystem = (value: number | string, units = ['', 'K', 'M', 'B']) => {
   const number = toNumber(value)
 
+  if (number === 0) return '0'
+
   const i = Math.floor(Math.log(number) / Math.log(1000))
 
   return [Math.round(number / Math.pow(1000, i)), units[i]].filter(Boolean).join(' ')
