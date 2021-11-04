@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.17](https://github.com/vuthanhbayit/utils/compare/v0.0.16...v0.0.17) (2021-11-04)
+
+
+### Bug Fixes
+
+* **toCurrencySystem:** fix toCurrencySystem with case value 0 ([878edd9](https://github.com/vuthanhbayit/utils/commit/878edd96a9bd9a416b280e1650e7ff26416fb9fd))
+
 ### [0.0.16](https://github.com/vuthanhbayit/utils/compare/v0.0.15...v0.0.16) (2021-11-04)
 
 
