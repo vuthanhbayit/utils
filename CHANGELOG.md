@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.18](https://github.com/vuthanhbayit/utils/compare/v0.0.17...v0.0.18) (2021-11-17)
+
+
+### Bug Fixes
+
+* **is:** fix isVideo detect mov file ([42a6dd7](https://github.com/vuthanhbayit/utils/commit/42a6dd7a8ed45636f1ed09a4dfa4a53464e3923c))
+
 ### [0.0.17](https://github.com/vuthanhbayit/utils/compare/v0.0.16...v0.0.17) (2021-11-04)
 
 
