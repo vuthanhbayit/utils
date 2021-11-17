@@ -10,7 +10,7 @@ export const isWindow = (val: any): val is Window => typeof window !== 'undefine
 export const isFunction = <T extends Function> (val: any): val is T => typeof val === 'function'
 export const isBoolean = (val: any): val is boolean => typeof val === 'boolean'
 export const isImage = (filename: string) => /\.(gif|jpe?g|tiff?|png|webp|bmp)$/i.test(filename)
-export const isVideo = (filename: string) => /\.(m4v|avi|mpg|mp4|webm)$/i.test(filename)
+export const isVideo = (filename: string) => /\.(m4v|avi|mpg|mp4|webm|mov)$/i.test(filename)
 export const isFormData = (val: any): val is FormData => val instanceof FormData
 
 /**
