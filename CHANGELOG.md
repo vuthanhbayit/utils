@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.19](https://github.com/vuthanhbayit/utils/compare/v0.0.18...v0.0.19) (2021-12-22)
+
+
+### Bug Fixes
+
+* logic handle scroll ([f62e57b](https://github.com/vuthanhbayit/utils/commit/f62e57bbdb93a01b1090df4ea380e0a81f8c0701))
+
 ### [0.0.18](https://github.com/vuthanhbayit/utils/compare/v0.0.17...v0.0.18) (2021-11-17)
 
 
