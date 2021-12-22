@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.21](https://github.com/vuthanhbayit/utils/compare/v0.0.18...v0.0.21) (2021-12-22)
+
+
+### Bug Fixes
+
+* export ScrollEvent ([8a63804](https://github.com/vuthanhbayit/utils/commit/8a63804f34a8e8ec2c04e7037953780605648942))
+* scroll target ([17e7ee5](https://github.com/vuthanhbayit/utils/commit/17e7ee5c643865bbb2c4fa180103fd79054c97fa))
+
 ### [0.0.20](https://github.com/vuthanhbayit/utils/compare/v0.0.19...v0.0.20) (2021-12-22)
 
 
