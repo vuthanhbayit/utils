@@ -34,10 +34,10 @@ export const parser = (options: Partial<FormatterOption> = {}) => {
   return (value: string) => value.replace(regexParser, '')
 }
 
-export const formatCurrency = (value: number | string) => {
+export const formatCurrency = (value: number | string, options: Partial<FormatterOption>) => {
   const val = Number.isInteger(value) ? value : Number(Number(value).toFixed(2))
 
-  return formatter(DEFAULT_FORMATTER_OPTION)(val)
+  return formatter(options)(val)
 }
 
 /**
