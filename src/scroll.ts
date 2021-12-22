@@ -1,7 +1,7 @@
 import { cancelRaf, raf } from './requestAnimationFrame'
 import { isWindow } from './is'
 
-interface ScrollEvent extends Event {
+export interface ScrollEvent extends Event {
   direction: 'down' | 'up'
   last: boolean
   y: number
