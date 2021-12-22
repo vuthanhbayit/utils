@@ -1,6 +1,6 @@
 import { cancelRaf, raf } from './requestAnimationFrame'
 
-interface ScrollEvent extends Event {
+export interface ScrollEvent extends Event {
   direction: 'down' | 'up'
   last: boolean
   y: number
