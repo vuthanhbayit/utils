@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.22](https://github.com/vuthanhbayit/utils/compare/v0.0.21...v0.0.22) (2022-01-06)
+
+
+### Bug Fixes
+
+* **currency:** text toCurrencySystemVietnamese ([1c1ee15](https://github.com/vuthanhbayit/utils/commit/1c1ee15f17fcd9bca01cab9cfad437929cbc9235))
+
 ### [0.0.21](https://github.com/vuthanhbayit/utils/compare/v0.0.18...v0.0.21) (2021-12-22)
 
 
