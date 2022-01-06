@@ -63,5 +63,5 @@ export const toCurrencySystem = (value: number | string, units = ['', 'K', 'M', 
  * @example toCurrencySystemVietnamese('10000000') => 10 Triệu
  */
 export const toCurrencySystemVietnamese = (value: number | string) => {
-  return toCurrencySystem(value, ['', 'Nghìn', 'Triệu', 'Tỷ'])
+  return toCurrencySystem(value, ['', 'nghìn', 'triệu', 'tỷ'])
 }
