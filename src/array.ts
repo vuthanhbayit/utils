@@ -173,6 +173,29 @@ export const chuck = <T>(array: T[], length: number) => {
 
 /**
  * @param array: T[]
+ * @param row: number
+ * @return T[][]
+ * @example chuckByRow([1, 2, 3, 4, 5], 2) => [[1, 3, 5], [2, 4]]
+ * @example chuckByRow([1, 2, 3, 4, 5], 3) => [[1, 4], [2, 5], [3]]
+ */
+export const chuckByRow = <T>(array: T[], row: number) => {
+  const _list: T[][] = []
+
+  for (let i = 0; i < array.length; i++) {
+    const index = i % row
+
+    if (!_list[index]) {
+      _list[index] = []
+    }
+
+    _list[index].push(array[i])
+  }
+
+  return _list
+}
+
+/**
+ * @param array: T[]
  * @param rest: T[]
  * @return T[]
  * @example without([1, 2, 3, 4, 5], 1) => [2, 3, 4, 5]
