@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.23](https://github.com/vuthanhbayit/utils/compare/v0.0.22...v0.0.23) (2022-01-13)
+
+
+### Features
+
+* **array:** add fn chuckByRow ([27009c5](https://github.com/vuthanhbayit/utils/commit/27009c5661aabc82f31bc9129a9cc2b27c69a2ce))
+
 ### [0.0.22](https://github.com/vuthanhbayit/utils/compare/v0.0.21...v0.0.22) (2022-01-06)
 
 
