@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/vuthanhbayit/utils/compare/v0.0.23...v0.1.1) (2022-02-18)
+
+
+### Features
+
+* **url:** fn isAbsoluteUrl ([a75510e](https://github.com/vuthanhbayit/utils/commit/a75510e653cf35183da258644119a825b31f00cc))
+* **url:** fn isRelative ([2c6cb09](https://github.com/vuthanhbayit/utils/commit/2c6cb09cf45392abe33953325e5488acf4b39177))
+
 ### [0.0.23](https://github.com/vuthanhbayit/utils/compare/v0.0.22...v0.0.23) (2022-01-13)
 
 
