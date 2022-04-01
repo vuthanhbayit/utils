@@ -3,26 +3,8 @@ export function hasOwnProperty<T>(obj: T, v: PropertyKey) {
   return Object.prototype.hasOwnProperty.call(obj, v)
 }
 
-interface Omit {
-  <T extends object, K extends [...(keyof T)[]]>
-  (obj: T, ...keys: K): {
-    [K2 in Exclude<keyof T, K[number]>]: T[K2]
-  }
-}
-
-export const omit: Omit = (obj, ...keys) => {
-  const rest = {} as {
-    // eslint-disable-next-line no-use-before-define
-    [K in keyof typeof obj]: (typeof obj)[K]
-  }
-
-  let key: keyof typeof obj
-  // eslint-disable-next-line no-restricted-syntax
-  for (key in obj) {
-    if (!(keys.includes(key))) {
-      rest[key] = obj[key]
-    }
-  }
-
-  return rest
+export function omit<T, K extends Extract<keyof T, string>>(obj: T, ...keys: K[]): Omit<T, K> {
+  const _obj = { ...obj }
+  keys.forEach(key => delete _obj[key])
+  return _obj
 }
