@@ -1,6 +1,6 @@
 {
   "name": "@vt7/utils",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Opinionated collection of common JavaScript / TypeScript utils by @vt7",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -30,7 +30,7 @@
     "lint": "eslint \"{src,test}/**/*.ts\"",
     "lint:fix": "yarn lint -- --fix",
     "test": "jest",
-    "release": "yarn lint && yarn test && standard-version && git push --follow-tags && npm publish"
+    "release": "standard-version"
   },
   "dependencies": {
     "@types/throttle-debounce": "^2.1.0"

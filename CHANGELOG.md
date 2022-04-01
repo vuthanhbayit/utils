@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/vuthanhbayit/utils/compare/v0.2.1...v1.0.0) (2022-04-01)
+
+
+### Features
+
+* **object:** fn omit ([ced4816](https://github.com/vuthanhbayit/utils/commit/ced48162125f0a787557bc5bf44d92b322e98762))
+
 ### [0.2.1](https://github.com/vuthanhbayit/utils/compare/v0.1.1...v0.2.1) (2022-02-18)
 
 ### [0.1.1](https://github.com/vuthanhbayit/utils/compare/v0.0.23...v0.1.1) (2022-02-18)
