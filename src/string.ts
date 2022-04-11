@@ -3,7 +3,7 @@
  * @param str
  * @return str
  * @example
- * removeVietnameseTones('Long Trần') // return Long Tran
+ * removeVietnameseTones('Vũ Thanh Bảy') // return Vu Thanh Bay
  */
 export const removeVietnameseTones = (str: string) => {
   str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, 'a')
