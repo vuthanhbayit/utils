@@ -64,7 +64,7 @@ export const isEqual = <T>(value: T, other: T) => {
   if (typeof value !== typeof other) return false
 
   if (isArray(value) && isArray(other))
-    return value.sort().toString() === other.sort().toString()
+    return [...value].sort().toString() === [...other].sort().toString()
 
   if (isObject(value) && isObject(other)) {
     return (
