@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/vuthanhbayit/utils/compare/v1.1.0...v1.2.0) (2022-04-11)
+
+
+### Features
+
+* add string.test file ([eac9ede](https://github.com/vuthanhbayit/utils/commit/eac9ede8f816189101b530c85d039ae3dd73a4f5))
+* add style.test file ([a5e2283](https://github.com/vuthanhbayit/utils/commit/a5e2283f431fc340b51485df12fb34f9db63b009))
+* add vitest ([c0906a0](https://github.com/vuthanhbayit/utils/commit/c0906a0599ab1127352409b0b21ce2535a08c57f))
+
+
+### Bug Fixes
+
+* **isEqual:** side effect sort array value ([a788f99](https://github.com/vuthanhbayit/utils/commit/a788f992a1cbee5a8de91281e006c72928c952ca))
+
 ## [1.1.0](https://github.com/vuthanhbayit/utils/compare/v1.0.1...v1.1.0) (2022-04-01)
 
 
